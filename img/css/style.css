@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+nav{
+    width:100%;
+    text-decoration: none;
+}
+body {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0% auto;
+    background-size: contain;
+    background-color: #73B548;
+    text-decoration: none;
+}
+
+li{
+    list-style-type: none;;
+}
+
+.animate__animated{
+    
+}
+
+.bg-img{
+    max-width: 100%;
+    position: absolute;
+}
+
+#layer1{ position:absolute; }
+
+#layer1 { z-index: -1; }
+
+
+.ul-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin-top: 0%;
+    font-size: 175%;
+    margin-bottom: 0%;
+}
+
+.li-nav {
+    margin: 0%;
+    list-style-type: none;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.link-nav {
+    color: azure;
+    font-family: 'Montserrat', sans-serif;
+    color: #73B548;
+    text-decoration: none;
+}
+
+.link-nav:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.text-logo {
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 150%;
+    margin: 0.5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+img-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    margin-top: 10%;
+    font-size: 175%;
+    border-radius: 50px 50px 0px 0px;
+}
+
+.main-for-news{
+    background-color: white;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.div-about-us {
+    display: flex;
+    text-align: left;
+    font-size: 90%;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+
+.h1-about-us {
+    font-weight: bolder;
+    font-size: 155%;
+    display: flex;
+    justify-content: center;
+}
+
+.img-column-1{
+    a
+}
+
+.quest-about-us {
+    background: #DCDCDC;
+    margin-top: 5%;
+}
+
+.quest {
+    font-size: 90%;
+    font-weight: bolder;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.quest-column {
+    width: 33%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.text-quest-about-us {
+    font-size: 65%;
+    display: inherit;
+}
+
+.contacts-all {
+    display: flex;
+    justify-content:flex-end;
+}
+.h-contacts {
+    font-size: 95%;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-bottom: 12.5px;
+}
+
+.news{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25%;
+    margin-left: 25%;
+    background-color: white;
+    border-radius: 50px 50px 50px 50px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    box-shadow: 0 0 10px #73B548;
+    padding: 10px;
+
+}
+
+.news:hover {
+    -webkit-transform: scale(1.025);
+    -ms-transform: scale(1.025);
+    transform: scale(1.025);
+}
+
+
+/*  ДЛЯ НЬЮС ЭФФЕКТОВ
+
+    Уменьшение при наведении
+    .news:hover {
+      -webkit-transform: scale(0.975);
+      -ms-transform: scale(0.975);
+      transform: scale(0.975);
+    }*/
+
+    /*. Обводка внутри, но почему-то сразу, а не за 0,3 секунды
+    news:hover{
+        box-shadow: inset 0 0 0 10px #73B548;
+        -webkit-transition: all 0.3s ease;
+        
+    }*/
+
+    /* Сдвиг влево вверх
+    .news:hover {
+      box-shadow:
+        1px 1px #73B548,
+        2px 2px #73B548,
+        3px 3px #73B548,
+        4px 4px #73B548,
+        5px 5px #73B548,
+        6px 6px #73B548,
+        7px 7px #73B548;
+      -webkit-transform: translateX(-7px);
+      transform: translateX(-7px);
+    }*/
+
+.news-link{
+    margin: 2.5%;
+    font-size: 90%;
+    text-decoration: none;
+}
+
+.news-img{
+    width: 500px;
+}
+
+.news-img_img{
+    float: right;
+    margin: 5%;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.h1-news{
+    display: flex;
+    justify-content: center;
+    font-size: 100%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.img-about-us{
+    margin: 50px;
+    animation-duration: 1s;
+}
+
+.text-about-us{
+    float: left;
+    margin: 7px 7px 7px 0; 
+}
+
+.main-center{
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+.about-us{
+    margin: 15px;
+}
+
+footer{
+    background-color: white;
+    height: 150px;
+    margin-bottom: 0%;
+}
+
+.my-contacts{
+    color: #73B548;
+    text-decoration: none;
+}
+
+.my-contacts-div{
+    text-align: left;
+    margin-left: 75px;
+    margin-right: auto;
+}
+
+.h-contacts-for-me{
+    margin-left: 0px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+
+/*.switch {
+  display: inline-block;
+  height: 34px;
+  position: relative;
+  width: 60px;
+}
+
+.switch input {
+  display:none;
+}
+
+.slider {
+  background-color: #ccc;
+  bottom: 0;
+  cursor: pointer;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: .4s;
+}
+
+.slider:before {
+  background-color: #fff;
+  bottom: 4px;
+  content: "";
+  height: 26px;
+  left: 4px;
+  position: absolute;
+  transition: .4s;
+  width: 26px;
+}
+
+input:checked + .slider {
+  background-color: #66bb6a;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+ general styling 
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #f1f2f3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container {
+  margin: 0 auto;
+}*/
+
+.btns-first{
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 0px;
+    margin-top: 8.75%;
+}
+
+.sami-btn{
+    width: 20%;
+}
+
+.sami-btn:hover{
+    transform: scale(1.075);
+}
+
+
+
+/* generic css */
+
+
+
+.view {
+    font-size: 12px;
+    background-color: white;
+    border-radius: 200px 200px 200px 200px;
+    margin: 10px;
+    border: 6px solid #fff;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+
+.view .mask,
+.view .content {
+    width: 175px;
+    height: 175px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+}
+
+.view img {
+    display: block;
+    position: relative;
+}
+
+.view h2 {
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    font-size: 12px;
+    padding: 10px;
+    margin: 20px 0 0 0;
+}
+
+.view p {
+    font-style: italic;
+    font-size: 12px;
+    position: relative;
+    color: #fff;
+    padding: 0px 20px 0px;
+    text-align: center;
+}
+
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    background: white;
+    color: #73B548;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #fff;
+}
+
+/*1*/
+
+.view-first img {
+    transition: all 0.2s linear;
+    width: 175px;
+    height: 175px;
+}
+
+.view-first .mask {
+    opacity: 0;
+    background-color: #73B548;
+    transition: all 0.4s ease-in-out;
+    
+}
+
+.view-first h2 {
+    transform: translateY(-100px);
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.view-first p {
+    transform: translateY(100px);
+    opacity: 0;
+    transition: all 0.2s linear;
+}
+
+.view-first a.info {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+
+/* */
+
+.view-first:hover img {
+    transform: scale(1.1);
+}
+
+.view-first:hover .mask {
+    opacity: 1;
+}
+
+.view-first:hover h2,
+.view-first:hover p,
+.view-first:hover a.info {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
+.view-first:hover p {
+    transition-delay: 0.1s;
+}
+
+.view-first:hover a.info {
+    transition-delay: 0.2s;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* Add padding to containers */
+.container {
+  padding: 16px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.already-reg{
+    font-size: 15px;
+}
+
+.main-entrance{
+    width: 80%;
+}
+
+.body-entrance{
+    background-image: url(/img/Shapka_v1.03.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
