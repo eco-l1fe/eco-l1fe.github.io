@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "MusticaproSemibold";
+    src: url(/fonts/MusticaproSemibold.otf); 
+}
+
+body{
+    background-image: url(/img/main.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+nav{
+    margin-top: 70%;
+}
+img{
+    margin: 30px;
+    margin-right: 50px;
+}
+.meal{
+    display: flex;
+    background-color: #e8402a;
+    text-align: center;
+    margin: 10px;
+    font-size: 70px;
+    padding: 40px;
+    border:none;
+    font-family: "MusticaproSemibold";
+    width: 850px;
+    color: white;
+}
