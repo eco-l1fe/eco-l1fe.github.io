@@ -8,22 +8,75 @@ body{
     background-repeat: no-repeat;
     background-size: 100%;
 }
+
 nav{
     margin-top: 70%;
 }
-img{
-    margin: 30px;
-    margin-right: 50px;
+
+.MealId{
+    text-decoration: none;
+    color: white;
 }
-.meal{
+
+.MealId:hover{
+    transition-duration: 0.25s;
+    color: black;
+    opacity: 0.85;
+}
+
+.exampMeal{
+    width: 80%;
+    margin: 10px;
+    font-size: 80px;
+    padding: 30px;
+    background-color: #f5a490;
+    color: white;
+    font-family: "MusticaproSemibold";
+    text-align: start;
+    padding-left: 75px;
+}
+
+.typeMeal{
+    margin-bottom: 25px;
+    margin-left: 35px;
+}
+
+.meals{
+    line-height:normal;
     display: flex;
     background-color: #e8402a;
-    text-align: center;
     margin: 10px;
-    font-size: 70px;
+    font-size: 80px;
     padding: 40px;
     border:none;
     font-family: "MusticaproSemibold";
-    width: 850px;
+    width: 80%;
     color: white;
 }
+
+.meals::before{
+    content: "";
+    background-position: center;
+    background-image: url(/img/arrow-down.png);
+    background-size: 55px 40px;
+    background-repeat: no-repeat;
+    width: 100px;
+}
+
+details[open] .meals::before{
+    content: "";
+    background-position: center;
+    background-image: url(/img/arrow-up.png);
+    background-size: 55px 40px;
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+
+
+
+
+

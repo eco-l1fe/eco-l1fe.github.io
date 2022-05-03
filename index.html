@@ -5,14 +5,37 @@
     <link rel="stylesheet" href="css/style.css">
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/madia-queries.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <center>
         <nav>
-            <button class="meal"><img src="img/arrow.png" width="75"> супы </button>
-            <button class="meal"><img src="img/arrow.png" width="75"> выпечка </button>
-            <button class="meal"><img src="img/arrow.png" width="75"> напитки </button>
+            <details>
+                <summary class="meals">
+                    <div class="typeMeal">выпечка</div> 
+                </summary> 
+                <div class="exampMeal"><a href="#" class="MealId">пончик</a></div>
+                <div class="exampMeal"><a href="#" class="MealId">перепечи</a></div>
+                <div class="exampMeal"><a href="#" class="MealId">хлеб</a></div>
+            </details>
+            <details>
+                <summary class="meals"> 
+                    <div class="typeMeal">супы</div> 
+                </summary>    
+                <div class="exampMeal"><a href="#" class="MealId">том ям</a></div> 
+                <div class="exampMeal"><a href="#" class="MealId">борщ</a></div>
+                <div class="exampMeal"><a href="#" class="MealId">окрошка</a></div>
+            </details>
+            <details>
+                <summary class="meals"> 
+                    <div class="typeMeal">напитки</div> 
+                </summary>
+                <div class="exampMeal"><a href="#" class="MealId">лимонад</a></div>
+                <div class="exampMeal"><a href="#" class="MealId">мохито</a></div>
+                <div class="exampMeal"><a href="#" class="MealId">морс облепиховый</a></div>
+            </details>
         </nav> 
     </center>
     <main>
