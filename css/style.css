@@ -13,27 +13,24 @@ nav{
     margin-top: 70%;
 }
 
-.MealId{
-    text-decoration: none;
-    color: white;
-}
-
-.MealId:hover{
-    transition-duration: 0.25s;
-    color: black;
-    opacity: 0.85;
-}
-
 .exampMeal{
-    width: 80%;
+    display: flex;
+    text-decoration: none;
+    width: 700px;
     margin: 10px;
-    font-size: 80px;
+    font-size: 70px;
     padding: 30px;
     background-color: #f5a490;
     color: white;
     font-family: "MusticaproSemibold";
     text-align: start;
     padding-left: 75px;
+}
+
+.exampMeal:hover{
+    color: black;
+    opacity: 0.85;
+    transition-duration: 0.5s;
 }
 
 .typeMeal{
@@ -71,7 +68,37 @@ details[open] .meals::before{
     background-repeat: no-repeat;
 }
 
+.ingredients{
+    background-color: gray;
+    padding: 100px
+    
+}
 
+.pImg{
+    text-align: center;
+}
+
+.imgMeal{
+    width: 400px;
+    margin-bottom: -100px;
+
+}
+
+.zagolovok{
+    text-decoration: underline;
+    font-size: 65px;
+}
+
+main{
+    margin-top: 20%;
+    background-image: url(/img/bg.png);
+    background-size: 100%;
+    font-size: 50px;
+    font-family: "MusticaproSemibold";
+    padding-left: 20%;
+    padding-right: 20%;
+    right: inherit;
+}
 
 
 
