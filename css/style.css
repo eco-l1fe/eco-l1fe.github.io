@@ -13,10 +13,25 @@ nav{
     margin-top: 70%;
 }
 
+
+main{
+    margin-top: 20%;
+    background-image: url(/img/bg.png);
+    background-size: 100%;
+    font-size: 50px;
+    font-family: "MusticaproSemibold";
+    padding-left: 20%;
+    padding-right: 20%;
+    right: inherit;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+
 .exampMeal{
     display: flex;
     text-decoration: none;
-    width: 700px;
+    width: 75%;
     margin: 10px;
     font-size: 70px;
     padding: 30px;
@@ -25,6 +40,7 @@ nav{
     font-family: "MusticaproSemibold";
     text-align: start;
     padding-left: 75px;
+    border-radius: 10px;
 }
 
 .exampMeal:hover{
@@ -49,6 +65,11 @@ nav{
     font-family: "MusticaproSemibold";
     width: 80%;
     color: white;
+    border-radius: 10px;
+}
+
+.adsad{
+    text-align: center;
 }
 
 .meals::before{
@@ -69,35 +90,29 @@ details[open] .meals::before{
 }
 
 .ingredients{
-    background-color: gray;
-    padding: 100px
+    background-color: ;
+    border-style:outset;
+    border-color: gray;
+    border-width: 10px;
+    box-shadow: 35px 35px 0px 1px #e8402a;
+    border-radius: 10px;
+    padding: 100px;
+    margin-bottom:10%;
     
 }
 
-.pImg{
-    text-align: center;
-}
-
 .imgMeal{
-    width: 400px;
-    margin-bottom: -100px;
+    width: 80%;
+    margin-bottom: -125px;
+    padding-top: 10%;
 
 }
 
 .zagolovok{
     text-decoration: underline;
-    font-size: 65px;
-}
-
-main{
-    margin-top: 20%;
-    background-image: url(/img/bg.png);
-    background-size: 100%;
-    font-size: 50px;
-    font-family: "MusticaproSemibold";
-    padding-left: 20%;
-    padding-right: 20%;
-    right: inherit;
+    font-size: 130%;
+    text-align: center;
+    margin-top: 30%;
 }
 
 
