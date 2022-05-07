@@ -31,7 +31,7 @@ main{
 .exampMeal{
     display: flex;
     text-decoration: none;
-    width: 75%;
+    width: 90%;
     margin: 10px;
     font-size: 70px;
     padding: 30px;
@@ -63,7 +63,7 @@ main{
     padding: 40px;
     border:none;
     font-family: "MusticaproSemibold";
-    width: 80%;
+    width: 95%;
     color: white;
     border-radius: 10px;
 }
@@ -98,6 +98,7 @@ details[open] .meals::before{
     border-radius: 10px;
     padding: 100px;
     margin-bottom:10%;
+    font-size: 70px;
     
 }
 
@@ -110,9 +111,13 @@ details[open] .meals::before{
 
 .zagolovok{
     text-decoration: underline;
-    font-size: 130%;
     text-align: center;
     margin-top: 30%;
+    font-size: 100px;
+}
+
+.mealSteps{
+    font-size: 70px;
 }
 
 
