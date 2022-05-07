@@ -1,3 +1,5 @@
+
+
 @font-face {
     font-family: "MusticaproSemibold";
     src: url(/fonts/MusticaproSemibold.otf); 
@@ -109,20 +111,35 @@ details[open] .meals::before{
 }
 
 .zagolovok{
-    text-decoration: underline;
+    text-decoration:underline;
     text-align: center;
     margin-top: 30%;
     font-size: 100px;
+    font-style:oblique;
 }
 
 .mealSteps{
     font-size: 60px;
 }
+.scrollA{
+    position: sticky;
+    top: 95%;
+    left: 86.5%;
+}
 
-
-
-
-
-
-
-
+.scrollImg{
+    width: 100px;
+    height: 80px;
+    opacity: 0.9;
+    
+}
+ul div{
+    font-size: 50px;
+    text-align: center;
+    font-style:oblique;
+}
+ol div{
+    font-size: 50px;
+    text-align: center;
+    font-style:oblique;
+}
