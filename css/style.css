@@ -94,19 +94,18 @@ details[open] .meals::before{
     border-style:outset;
     border-color: gray;
     border-width: 10px;
-    box-shadow: 35px 35px 0px 1px #e8402a;
+    box-shadow: 25px 25px 0px 1px #e8402a;
     border-radius: 10px;
     padding: 100px;
     margin-bottom:10%;
-    font-size: 70px;
+    font-size: 60px;
     
 }
 
 .imgMeal{
     width: 80%;
-    margin-bottom: -125px;
+    margin-bottom: -100px;
     padding-top: 10%;
-
 }
 
 .zagolovok{
@@ -117,7 +116,7 @@ details[open] .meals::before{
 }
 
 .mealSteps{
-    font-size: 70px;
+    font-size: 60px;
 }
 
 
