@@ -100,6 +100,7 @@ details[open] .meals::before{
     padding: 75px;
     margin-bottom:10%;
     font-size: 32.5px;
+    margin-right: 2.5%;
     
 }
 
@@ -119,7 +120,6 @@ details[open] .meals::before{
     margin-top: 100px;
     margin-left: 10%;
     margin-right: 5%;
-    font-size: 40px;
     padding-top: 20%;
     border-style:outset;
     border-color: gray ;
@@ -151,6 +151,9 @@ ol div{
     font-size: 50px;
     text-align: center;
     font-style:oblique;
+}
+ol li {
+    font-size: 40px;
 }
 
 .mealPage{
