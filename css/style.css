@@ -1,29 +1,29 @@
-
-
 @font-face {
     font-family: "MusticaproSemibold";
     src: url(/fonts/MusticaproSemibold.otf); 
 }
 
 body{
-    background-image: url(/img/main.png);
+    background-image: url(/img/main-dekstop.png);
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 nav{
-    margin-top: 70%;
+    margin-top: 25%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 
 main{
-    margin-top: 20%;
-    background-image: url(/img/bg.png);
+    margin-top: 5%;
+    background-image: url(/img/bg-dekstop.png);
     background-size: 100%;
-    font-size: 50px;
+    font-size: 75px;
     font-family: "MusticaproSemibold";
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     right: inherit;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -35,7 +35,7 @@ main{
     text-decoration: none;
     width: 90%;
     margin: 10px;
-    font-size: 70px;
+    font-size: 50px;
     padding: 30px;
     background-color: #f5a490;
     color: white;
@@ -61,7 +61,7 @@ main{
     display: flex;
     background-color: #e8402a;
     margin: 10px;
-    font-size: 80px;
+    font-size: 60px;
     padding: 40px;
     border:none;
     font-family: "MusticaproSemibold";
@@ -92,15 +92,14 @@ details[open] .meals::before{
 }
 
 .ingredients{
-    background-color: ;
     border-style:outset;
     border-color: gray;
     border-width: 10px;
-    box-shadow: 25px 25px 0px 1px #e8402a;
+    box-shadow: 25px 50px 0px 1px #e8402a;
     border-radius: 10px;
-    padding: 100px;
+    padding: 75px;
     margin-bottom:10%;
-    font-size: 60px;
+    font-size: 32.5px;
     
 }
 
@@ -112,12 +111,24 @@ details[open] .meals::before{
 
 .zagolovok{
     text-align: center;
-    margin-top: 30%;
-    font-size: 100px;
+    margin-top: 10%;
+    font-size: 80px;
 }
 
 .mealSteps{
-    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 40px;
+    padding-top: 20%;
+    border-style:outset;
+    border-color: gray ;
+    border-width: 10px;
+    box-shadow: 50px -25px 0px 1px #e8402a;
+    border-radius: 10px;
+    padding: 60px;
+    margin-bottom: 5%;
+    font-size: 32.5px;
 }
 .scrollA{
     position: sticky;
@@ -132,14 +143,17 @@ details[open] .meals::before{
     
 }
 ul div{
-    text-decoration:underline;
     font-size: 50px;
     text-align: center;
     font-style:oblique;
 }
 ol div{
-    text-decoration:underline;
     font-size: 50px;
     text-align: center;
     font-style:oblique;
+}
+
+.mealPage{
+    display: flex;
+    justify-content:space-around;
 }
