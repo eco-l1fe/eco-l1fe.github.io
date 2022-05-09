@@ -11,8 +11,11 @@ body{
 
 nav{
     margin-top: 25%;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100%;
 }
 
 
@@ -35,13 +38,13 @@ main{
     text-decoration: none;
     width: 90%;
     margin: 10px;
-    font-size: 50px;
-    padding: 30px;
+    font-size: 30px;
+    padding: 10px;
     background-color: #f5a490;
     color: white;
     font-family: "MusticaproSemibold";
-    text-align: start;
-    padding-left: 75px;
+    padding-left: 35px;
+    padding-right: 45px;
     border-radius: 10px;
 }
 
@@ -52,8 +55,8 @@ main{
 }
 
 .typeMeal{
-    margin-bottom: 25px;
-    margin-left: 35px;
+    margin-bottom: 10px;
+    margin-left: 0px;
 }
 
 .meals{
@@ -61,11 +64,11 @@ main{
     display: flex;
     background-color: #e8402a;
     margin: 10px;
-    font-size: 60px;
-    padding: 40px;
+    font-size: 35px;
+    padding: 10px;
     border:none;
     font-family: "MusticaproSemibold";
-    width: 95%;
+    width: 300px;
     color: white;
     border-radius: 10px;
 }
@@ -78,7 +81,7 @@ main{
     content: "";
     background-position: center;
     background-image: url(/img/arrow-down.png);
-    background-size: 55px 40px;
+    background-size: 30px 20px;
     background-repeat: no-repeat;
     width: 100px;
 }
@@ -87,7 +90,7 @@ details[open] .meals::before{
     content: "";
     background-position: center;
     background-image: url(/img/arrow-up.png);
-    background-size: 55px 40px;
+    background-size: 30px 20px;
     background-repeat: no-repeat;
 }
 
