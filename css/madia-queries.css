@@ -32,7 +32,7 @@ main{
 .exampMeal{
     display: flex;
     text-decoration: none;
-    width: 90%;
+    width: 16%;
     margin: 10px;
     font-size: 70px;
     padding: 30px;
@@ -42,6 +42,9 @@ main{
     text-align: start;
     padding-left: 75px;
     border-radius: 10px;
+Position: absolute;
+Margin-top: 10px;
+
 }
 
 .exampMeal:hover{
