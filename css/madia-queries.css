@@ -29,21 +29,43 @@ main{
 }
 
 
-.exampMeal{
+.exampMeal-down{
     display: flex;
     text-decoration: none;
-    width: 16%;
+    width: 90%;
     margin: 10px;
-    font-size: 70px;
-    padding: 30px;
+    font-size: 45px;
+    padding: 40px;
     background-color: #f5a490;
     color: white;
     font-family: "MusticaproSemibold";
-    text-align: start;
-    padding-left: 75px;
+    padding-left: 35px;
+    padding-right: 45px;
     border-radius: 10px;
-Position: absolute;
-Margin-top: 10px;
+    position: relative;
+    margin-top: 0px;
+}
+
+.exampMeal-down:hover{
+    color: black;
+    opacity: 0.85;
+    transition-duration: 0.5s;
+}
+
+.exampMeal{
+    display: flex;
+    text-decoration: none;
+    width: 90%;
+    margin: 10px;
+    font-size: 45px;
+    padding: 40px;
+    background-color: #f5a490;
+    color: white;
+    font-family: "MusticaproSemibold";
+    padding-left: 35px;
+    padding-right: 45px;
+    border-radius: 10px;
+    position: relative;
 
 }
 

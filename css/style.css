@@ -10,7 +10,8 @@ body{
 }
 
 nav{
-    margin-top: 30%;
+    margin-top: 25%;
+    margin-bottom: 15%;
     padding-left: 10%;
     padding-right: 10%;
     display: flex;
@@ -32,11 +33,14 @@ main{
     margin-right: 2.5%;
 }
 
+.up{
+    margin-top: 1200px;
+}
 
-.exampMeal{
+.exampMeal-down{
     display: flex;
     text-decoration: none;
-    width: 90%;
+    width: 15%;
     margin: 10px;
     font-size: 25px;
     padding: 10px;
@@ -46,6 +50,31 @@ main{
     padding-left: 35px;
     padding-right: 45px;
     border-radius: 10px;
+    position: absolute;
+    margin-top: 115px;
+}
+
+.exampMeal-down:hover{
+    color: black;
+    opacity: 0.85;
+    transition-duration: 0.5s;
+}
+
+.exampMeal{
+    display: flex;
+    text-decoration: none;
+    width: 15%;
+    margin: 10px;
+    font-size: 25px;
+    padding: 10px;
+    background-color: #f5a490;
+    color: white;
+    font-family: "MusticaproSemibold";
+    padding-left: 35px;
+    padding-right: 45px;
+    border-radius: 10px;
+    position: absolute;
+
 }
 
 .exampMeal:hover{
@@ -57,6 +86,7 @@ main{
 .typeMeal{
     margin-bottom: 10px;
     margin-left: 0px;
+    
 }
 
 .meals{
@@ -71,6 +101,7 @@ main{
     width: 300px;
     color: white;
     border-radius: 10px;
+    
 }
 
 .adsad{
@@ -94,6 +125,7 @@ details[open] .meals::before{
     background-repeat: no-repeat;
     transform: 3s;
 }
+
 
 .ingredients{
     border-style:outset;
