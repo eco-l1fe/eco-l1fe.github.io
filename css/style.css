@@ -4,20 +4,21 @@
 }
 
 body{
-    background-image: url(/img/main-dekstop.png);
+    background-image: url();
     background-repeat: no-repeat;
     background-size: 100%;
 }
 
 nav{
-    margin-top: 25%;
-    margin-bottom: 200px;
-    padding-left: 35%;
-    padding-right: 35%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-left: 45%;
+    padding-right: 45%;
     display: flex;
     justify-content:space-evenly;
     width: 100%;
-    
+    background-color: #e8402a;
 }
 
 .back-img{
@@ -53,36 +54,44 @@ main{
     margin-top: 1200px;
 }
 
-.exampMeal-down{
-    text-decoration: none;
-    width: 230px;
-    margin: 10px;
-    font-size: 20px;
-    padding: 5px;
-    background-color: #f5a490;
-    color: white;
-    font-family: "MusticaproSemibold";
-    padding-left: 20px;
-    padding-right: 45px;
-    border-radius: 5px;
-    position: absolute;
-    margin-top: 90px;
-}
 
+.nav-img{
+    width: 30px;
+    height: 30px;
+    margin: 10.5px;
+    margin-right: 50px;
+    margin-left: 50px;
+    visibility: visible;
+}
 
 .exampMeal{
     text-decoration: none;
-    width: 230px;
-    margin: 10px;
-    font-size: 20px;
+    width: 175px;
+    font-size: 15px;
     padding: 5px;
     background-color: #f5a490;
     color: white;
     font-family: "MusticaproSemibold";
-    padding-left: 20px;
-    padding-right: 45px;
+    padding-left: 10px;
+    padding-right: 10px;
     border-radius: 5px;
     position: absolute;
+    margin-top: 3.5px;
+}
+
+.exampMeal-down{
+    text-decoration: none;
+    width: 175px;
+    font-size: 15.5px;
+    padding: 5px;
+    background-color: #f5a490;
+    color: white;
+    font-family: "MusticaproSemibold";
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    position: absolute;
+    margin-top: 40px;
 }
 
 .exampMeal-down:hover{
@@ -108,11 +117,11 @@ main{
     display: flex;
     background-color: #e8402a;
     margin: 10px;
-    font-size: 23px;
-    padding: 2.5px;
+    font-size: 17.5px;
+    padding: 1.5px;
     border:none;
     font-family: "MusticaproSemibold";
-    width: 230px;
+    width: 160px;
     color: white;
     border-radius: 5px;
 }
@@ -125,9 +134,9 @@ main{
     content: "";
     background-position: center;
     background-image: url(/img/arrow-down.png);
-    background-size: 12.5px 10px;
+    background-size: 10px 7.5px;
     background-repeat: no-repeat;
-    width: 50px;
+    width: 30px;
 }
 
 details[open] .meals::before{
@@ -143,24 +152,26 @@ details[open] .meals::before{
     border-style:outset;
     border-color: gray;
     border-width: 6px;
-    box-shadow: 25px 50px 0px 1px #e8402a;
+    box-shadow: 25px 30px 0px 1px #e8402a;
     border-radius: 5px;
-    padding: 75px;
+    padding-top: 75px;
+    padding: 50px;
     margin-bottom:10%;
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 2.5%;
+    width: 500px
 }
 
 .imgMeal{
     width: 300px;
-    margin-bottom: -100px;
-    padding-top: 10%;
+    margin-bottom: -50px;
+    padding-top: 15%;
 }
 
 .zagolovok{
     text-align: center;
     margin-top: 7.5%;
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .mealSteps{
@@ -168,6 +179,7 @@ details[open] .meals::before{
     margin-right: 0%;
     margin-bottom: 5%;
     padding: 60px;
+    padding-top: 10px;
 }
 .scrollA{
     position: sticky;
@@ -182,12 +194,12 @@ details[open] .meals::before{
     
 }
 ul div{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     font-style:oblique;
 }
 ol div{
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     font-style:oblique;
     margin-top: 100px;
@@ -195,16 +207,16 @@ ol div{
     border-style:outset;
     border-color: gray ;
     border-width: 5px;
-    box-shadow: 50px -25px 0px 1px #e8402a;
+    box-shadow: 30px -25px 0px 1px #e8402a;
     border-radius: 5px;
     padding: 40px;
 }
 ol li {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .mealPage{
     display: flex;
-    justify-content:space-around;
+    justify-content:;
 }
 
