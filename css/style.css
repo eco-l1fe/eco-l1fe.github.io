@@ -18,7 +18,30 @@ nav{
     display: flex;
     justify-content:space-evenly;
     width: 100%;
-    background-color: #e8402a;
+    background-color: #971E0E;
+
+}
+
+.footer{
+    font-size: 35px;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: #971E0E;
+    padding: 20px;
+    width: 10%;
+    border-radius: 15px;
+}
+
+.footer:hover{
+    transition-duration: 0.75s;
+    color: black;
+}
+
+.p_id{
+    height: 0px;
 }
 
 .back-img{
@@ -39,12 +62,11 @@ a{
 
 main{
     margin-top: 5%;
-    background-image: url(/img/bg-dekstop.png);
     background-size: 100%;
     font-size: 75px;
     font-family: "MusticaproSemibold";
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     right: inherit;
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -69,7 +91,7 @@ main{
     width: 175px;
     font-size: 15px;
     padding: 5px;
-    background-color: #f5a490;
+    background-color: #F39386;
     color: white;
     font-family: "MusticaproSemibold";
     padding-left: 10px;
@@ -84,7 +106,7 @@ main{
     width: 175px;
     font-size: 15.5px;
     padding: 5px;
-    background-color: #f5a490;
+    background-color: #F39386;
     color: white;
     font-family: "MusticaproSemibold";
     padding-left: 10px;
@@ -115,7 +137,7 @@ main{
 .meals{
     line-height:normal;
     display: flex;
-    background-color: #e8402a;
+    background-color: #971E0E;
     margin: 10px;
     font-size: 17.5px;
     padding: 1.5px;
@@ -152,20 +174,20 @@ details[open] .meals::before{
     border-style:outset;
     border-color: gray;
     border-width: 6px;
-    box-shadow: 25px 30px 0px 1px #e8402a;
+    box-shadow: 10px 12.5px 0px 1px #971E0E;
     border-radius: 5px;
     padding-top: 75px;
     padding: 50px;
     margin-bottom:10%;
     font-size: 20px;
     margin-right: 2.5%;
-    width: 500px
+    width: 650px;
 }
 
 .imgMeal{
     width: 300px;
     margin-bottom: -50px;
-    padding-top: 15%;
+    margin-top: 100px;
 }
 
 .zagolovok{
@@ -179,7 +201,7 @@ details[open] .meals::before{
     margin-right: 0%;
     margin-bottom: 5%;
     padding: 60px;
-    padding-top: 10px;
+    padding-top: 0px;
 }
 .scrollA{
     position: sticky;
@@ -207,7 +229,7 @@ ol div{
     border-style:outset;
     border-color: gray ;
     border-width: 5px;
-    box-shadow: 30px -25px 0px 1px #e8402a;
+    box-shadow: 12.5px -10px 0px 1px #971E0E;
     border-radius: 5px;
     padding: 40px;
 }
@@ -217,6 +239,5 @@ ol li {
 
 .mealPage{
     display: flex;
-    justify-content:;
 }
 
